@@ -50,6 +50,8 @@ body {
     background: #256EEB; /* фон */
     border-radius: 5px; /* скругление углов */
     color: white;
+    padding: 10px 15px;
+    margin-left: 25px;
 }
 .search-panel {
     height: 50px; /* высота 50 пикселей */
@@ -115,8 +117,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    vertical-align: bottom;
+
 }
 .like {
+    margin-top: 15px;
     background-color: white;
     border: none;
     cursor: pointer;
@@ -161,17 +166,31 @@ body {
     margin-top: 0;
     margin-bottom: 25px;
 }
+.hr-line {
+    margin-top: 12px;
+    margin-bottom: 18px;
+}
 .footer-text {
+    display: inline-block;
     font-size: 14px;
     line-height: 16px;
     color: #C4C4C4;
+    margin: 0;
+
 }
 .footer-menu {
     margin: 0;
     padding: 0;
     list-style: none;
+    margin-bottom: 16px;
 }
 .footer-menu-item {
     margin-top: 5px;
+}
+.footer-link {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
 }
 /*  */
